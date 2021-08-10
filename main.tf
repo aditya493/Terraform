@@ -4,6 +4,6 @@ resource "aws_instance" "app_server" {
   key_name = "ohio-test"
 
   tags = {
-    Name = "ExampleAppServerInstance1"
+    Name = "iam_from_terraform"
   }
 }
